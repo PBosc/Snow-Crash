@@ -14,5 +14,4 @@ This is a url so we have to encode the invalid characters
 curl "localhost:4747?x=%24%28getflag%29"
 ```
 
-
-**Flag** : ne2searoevaevoem4ov4ar8ap
+**Flag:** ne2searoevaevoem4ov4ar8ap

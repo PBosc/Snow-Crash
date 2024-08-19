@@ -9,7 +9,7 @@ d--x--x--x 1 root    users    340 Aug 30  2015 ..
 -r-x------ 1 level01 level01 3518 Aug 30  2015 .bashrc
 -r-x------ 1 level01 level01  675 Apr  3  2012 .profile
 level01@SnowCrash:~$ find / -user flag01 2>/dev/null
-level01@SnowCrash:~$ 
+level01@SnowCrash:~$
 ```
 
 This time we do not have anything
@@ -42,4 +42,4 @@ We found the password
 
 **Password** : `abcdefg`
 
-**Flag** : `f2av5il02puano7naaf6adaaf`
+**Flag:** `f2av5il02puano7naaf6adaaf`
