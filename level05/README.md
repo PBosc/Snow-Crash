@@ -21,7 +21,11 @@ This script executes all files in the /opt/openarenaserver then removes them
 We create a file and wait for the script to be ran (in a cron ?)
 
 ```bash
-echo "getflag > /tmp/toto" > opt/openarenaserver/toto.sh
+echo "getflag > /tmp/toto" > /opt/openarenaserver/toto.sh
+```
+
+```bash
+chmod +x /opt/openarenaserver/toto.sh
 ```
 
 ```bash
